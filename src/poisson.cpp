@@ -67,7 +67,7 @@ poisson::insertPoint(vector<posn<double>> &points, const posn<double> &point)
 
 	for (int j = min_y; j <= max_y; ++j)
 		for (int i = min_x; i <= max_x; ++i)
-			if ((x - i) * (x - i) + (y - j) * (y - j) < r * r)
+			if ((x - i) * (x - i) + (y - j) * (y - j) < r)
 				_grid[i+j*_im.width].valid = false;
 
 	return true;

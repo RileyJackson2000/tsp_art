@@ -1,11 +1,11 @@
 # Configuration file for tsp_art
 # mesh_diam (int): decides how many initial points are chosen when sampling 
-10
+2
 # min (double): minimum pixel density for blue noise point distribution
-0.5
+10
 # max (double): maximum pixel density for blue noise point distribution
-16
+30
 # min_thresh_p (double): percentile below which a point is chosen as an initial point
-0.1
+0.2
 # max_thresh_p (double): percentile above which a point is not drawn (whitespace)
-0.5
+0.95
