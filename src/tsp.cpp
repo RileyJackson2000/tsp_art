@@ -28,7 +28,7 @@ getLine(std::ifstream &in, std::string &s)
 
 int main(int argc, char ** argv) {
 	int mesh_diam;
-	double min, max, min_thresh_p, max_thresh_p;
+	double min, max, min_thresh_p, max_thresh_p, alpha, beta;
 
 	std::string val;
 	std::ifstream config{"config.tsp_art"};
@@ -44,9 +44,12 @@ int main(int argc, char ** argv) {
 	getLine(config, val);
 	max_thresh_p = std::stod(val);
 	getLine(config, val);
+	alpha = std::stod(val);
+	getLine(config, val);
+	beta = std::stod(val);
 	config.close();
 
-	image im{argv[1], mesh_diam, min, max, min_thresh_p, max_thresh_p};
+	image im{argv[1], mesh_diam, min, max, min_thresh_p, max_thresh_p, alpha, beta};
 	std::string outname{argv[2]};
 	
 	poisson pds{im};

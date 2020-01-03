@@ -4,13 +4,15 @@
 #include "posn.hpp"
 #include <iostream>
 
-image::image(const std::string &filename, int mesh_diam, double min, double max, double min_thresh_p, double max_thresh_p)
+image::image(const std::string &filename, int mesh_diam, double min, double max, double min_thresh_p, double max_thresh_p, double alpha, double beta)
 : filename{filename},
   mesh_diam{mesh_diam},
   min{min},
   max{max},
   min_thresh_p{min_thresh_p},
-  max_thresh_p{max_thresh_p}
+  max_thresh_p{max_thresh_p},
+  alpha{alpha},
+  beta{beta}
 {
 	cv::Mat im = cv::imread(filename, 0);
 	width = im.cols;
