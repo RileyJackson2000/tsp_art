@@ -86,12 +86,6 @@ The first step in the image processing is to scale the pixels from [0,255] into 
 The other 3 configuration options deal with point generation. When a point is chosen such that its grayscale intensity is above the max_thresh_p'th percentile, it is ignored. Finally, if <a href="https://www.codecogs.com/eqnedit.php?latex=I_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{ij}" title="I_{ij}" /></a> is a point with local density <a href="https://www.codecogs.com/eqnedit.php?latex=r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> then the disk of radius of <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha&space;r^{\beta}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha&space;r^{\beta}" title="\alpha r^{\beta}" /></a> centered at <a href="https://www.codecogs.com/eqnedit.php?latex=(i,j)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(i,j)" title="(i,j)" /></a> is removed from consideration.
 
 <p align="center">
-  <img src="./pics/dog.png" width="300" /> 
-  <img src="./pics/dog_dots.png" width="300" />
-  <img src="./pics/dog_lines.png" width="300" />
-</p>
-
-<p align="center">
   <img src="./pics/lena.png" width="300" /> 
   <img src="./pics/lena_dots.png" width="300" />
   <img src="./pics/lena_lines.png" width="300" />
@@ -102,3 +96,11 @@ The other 3 configuration options deal with point generation. When a point is ch
   <img src="./pics/penguin_dots.png" width="300" />
   <img src="./pics/penguin_lines.png" width="300" />
 </p>
+
+<p align="center">
+  <img src="./pics/cheetah.png" width="300" height="701"/> 
+  <img src="./pics/cheetah_dots.png" width="300" height="701"/>
+  <img src="./pics/cheetah_lines.png" width="300" height="701"/>
+</p>
+
+

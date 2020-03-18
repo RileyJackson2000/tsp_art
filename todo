@@ -1,0 +1,3 @@
+rewrite and complete graph library
+switch from cairo renderer to opencv
+remove Blossom V dependency (in house LP, IP, augmented paths)
