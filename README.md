@@ -98,9 +98,9 @@ The other 3 configuration options deal with point generation. When a point is ch
 </p>
 
 <p align="center">
-  <img src="./pics/cheetah.png" width="300" height="701"/> 
-  <img src="./pics/cheetah_dots.png" width="300" height="701"/>
-  <img src="./pics/cheetah_lines.png" width="300" height="701"/>
+  <img src="./pics/cheetah.png" width="300"/> 
+  <img src="./pics/cheetah_dots.png" width="300" />
+  <img src="./pics/cheetah_lines.png" width="300"/>
 </p>
 
 
